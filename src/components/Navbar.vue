@@ -48,13 +48,11 @@ export default {
           text: 'Cv',
           page: '/cv'
         },
-        /*
         {
           id: 4,
           text: 'Portfolio',
           page: '/portfolio'
         },
-        */
         {
           id: 5,
           text: 'Contatti',

@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Portfolio from '@/Portfolio'
+import Portfolio from '@/components/Portfolio'
 import WhoAmI from '@/components/WhoAmI'
 import Cv from '@/components/Cv'
 import Skills from '@/components/Skills'

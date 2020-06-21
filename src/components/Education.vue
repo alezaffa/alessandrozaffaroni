@@ -9,7 +9,10 @@
 
       <div class="education col-xs-12 no-padding">
         <div class="logo col-md-5 col-sm-5 col-xs-12 no-padding">
-          <icon name="graduation-cap" scale="5"></icon>
+          <!--icon name="graduation-cap" scale="5"></icon-->
+          <a href="https://www.uninsubria.it">
+            <img src="/static/logo/uninsubria.png" alt="uninsubria.it" width="25%">
+          </a>
         </div>
         <div class="detail col-md-7 col-sm-7 col-xs-12 no-padding">
           <div class="header col-xs-12 no-padding">

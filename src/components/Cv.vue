@@ -22,7 +22,7 @@
             <span class="no-padding col-xs-2 hidden-xs">PDF</span>
             <span class="no-padding flag-icon flag-icon-it col-xs-2"></span>
             <span title="cv">
-              <a v-if="fileItaAvailable" href="/static/cv/CV-Alessandro-Zaffaroni-ITA.pdf" class="no-padding download glyphicon glyphicon-download-alt col-lg-2 col-md-2 col-sm-2 col-xs-10">
+              <a v-if="fileItaAvailable" href="../static/cv/CV-Alessandro-Zaffaroni-ITA.pdf" class="no-padding download glyphicon glyphicon-download-alt col-lg-2 col-md-2 col-sm-2 col-xs-10">
               </a>
               <a v-else @click="showModal = true" class="no-padding download glyphicon glyphicon-download-alt col-lg-2 col-md-2 col-sm-2 col-xs-10">
               </a>
@@ -34,7 +34,7 @@
             <span class="no-padding col-xs-2 hidden-xs">PDF</span>
             <span class="no-padding flag-icon flag-icon-gb col-xs-2"></span>
             <span title="cv">
-              <a v-if="fileEngAvailable" href="/static/cv/CV-Alessandro-Zaffaroni-ENG.pdf" class="no-padding download glyphicon glyphicon-download-alt col-lg-2 col-md-2 col-sm-2 col-xs-10">
+              <a v-if="fileEngAvailable" href="../static/cv/CV-Alessandro-Zaffaroni-ENG.pdf" class="no-padding download glyphicon glyphicon-download-alt col-lg-2 col-md-2 col-sm-2 col-xs-10">
               </a>
               <a v-else @click="showModal = true" class="no-padding download glyphicon glyphicon-download-alt col-lg-2 col-md-2 col-sm-2 col-xs-10">
               </a>
@@ -83,7 +83,7 @@
     data () {
       return {
         showModal: false,
-        fileItaAvailable: false,
+        fileItaAvailable: true,
         fileEngAvailable: false
       }
     }

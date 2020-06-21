@@ -118,10 +118,7 @@
       padding-left: 10px;
       padding-right: 10px;
       .body {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 10px 70px 10px 70px;
         .skill-list {
           padding: 5px;
         }

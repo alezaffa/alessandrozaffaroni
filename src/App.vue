@@ -17,6 +17,12 @@
         <div class="cv col-xs-12" ref="Cv">
           <cv></cv>
         </div>
+        <div class="carousel col-xs-12" ref="Carousel">
+          <carousel></carousel>
+        </div>
+        <div class="portfolio col-xs-12" ref="Portfolio">
+          <portfolio></portfolio>
+        </div>
         <div class="contacts col-xs-12" ref="Contatti">
           <contacts></contacts>
         </div>
@@ -34,6 +40,7 @@
   import Education from './components/Education'
   import Skills from './components/Skills'
   import Carousel from './components/Carousel'
+  import Portfolio from './components/Portfolio'
   import Cv from './components/Cv'
   import Contacts from './components/Contacts'
   import VmBackTop from 'vue-multiple-back-top/src/components/back-top'
@@ -43,6 +50,7 @@
       VmBackTop,
       Navbar,
       Carousel,
+      Portfolio,
       WhoAmI,
       Skills,
       Experiences,
@@ -53,11 +61,9 @@
     name: 'app',
     methods: {
       methodName (name) {
-        if (!(name === 'Portfolio')) {
-          let element = this.$refs[name]
-          let top = element.offsetTop
-          window.scrollTo(0, top)
-        }
+        let element = this.$refs[name]
+        let top = element.offsetTop
+        window.scrollTo(0, top)
       }
     }
   }
@@ -93,6 +99,5 @@
         border-radius: 0px;
       }
     }
-
   }
 </style>

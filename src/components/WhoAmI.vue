@@ -11,11 +11,10 @@
         <img src="/static/images/avatar1.png" alt="Code" height="45%" width="45%">
       </div>
       <div class="introducing col-lg-6 col-md-6 col-xs-12">
-        <span class="greetings">Benvenuto!</span>
-        <p class="description">
-          Mi chiamo Alessandro Zaffaroni e vivo in provincia di Como. Laureato in Informatica e da sempre interessato all'Informatica e alle Telecomunicazioni.<br>
-          Ho maturato esperienza nel settore IT grazie ad importanti aziende.
-          Sin dai tempi universitari mi dedico alla creazione di <br>software sviluppati con il linguaggio Java e allo studio di nuovi linguaggi.
+        <span class="greetings">Ciao!</span>
+        <p class="description" style="text-align: justify;">
+          Sono Alessandro Zaffaroni, laureato in Informatica e da sempre interessato alle tecnologie informatiche.<br>
+          Sin dai tempi universitari mi dedico alla creazione di software sviluppati con il linguaggio Java e allo studio di nuovi linguaggi.
         </p>
       </div>
 
@@ -44,8 +43,7 @@
       padding-left: 10px;
       padding-right: 10px;
       .body {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px 40px 10px 40px;
         .h1, .title {
           padding: 0px;
           font-size: 5rem;

@@ -9,7 +9,54 @@
 
       <div class="experience col-xs-12 no-padding">
         <div class="logo col-md-5 col-sm-5 col-xs-12 no-padding">
-          <icon name="building" scale="5"></icon>
+          <!--icon name="building" scale="5"></icon-->
+          <a href="https://www.reply.com">
+            <img src="/static/logo/reply.png" width="60%">
+          </a>
+        </div>
+        <div class="detail col-md-7 col-sm-7 col-xs-12 no-padding">
+          <div class="header col-xs-12 no-padding">
+            <h3 class="jobtitle" style="font-weight: bold;">Software Developer</h3>
+            <h4 class="company">Reply S.p.A</h4>
+            <h5 class="date">
+              <span class="from">5 November 2019</span>
+              <span> - </span>
+              <span class="to">Oggi</span>
+            </h5>
+          </div>
+          <div class="description col-xs-12">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="experience col-xs-12 no-padding">
+        <div class="logo col-md-5 col-sm-5 col-xs-12 no-padding">
+          <!--icon name="building" scale="5"></icon-->
+          <a href="https://www.consoft.it">
+            <img src="/static/logo/cs.png" width="60%">
+          </a>
+        </div>
+        <div class="detail col-md-7 col-sm-7 col-xs-12 no-padding">
+          <div class="header col-xs-12 no-padding">
+            <h3 class="jobtitle" style="font-weight: bold;">Application Developer</h3>
+            <h4 class="company">Consoft Sistemi S.p.A</h4>
+            <h5 class="date">
+              <span class="from">16 Aprile 2018</span>
+              <span> - </span>
+              <span class="to">5 November 2019</span>
+            </h5>
+          </div>
+          <div class="description col-xs-12">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="experience col-xs-12 no-padding">
+        <div class="logo col-md-5 col-sm-5 col-xs-12 no-padding">
+          <!--icon name="building" scale="5"></icon-->
+          <a href="https://www.elmec.com">
+            <img src="/static/logo/elmec.png" width="60%">
+          </a>
         </div>
         <div class="detail col-md-7 col-sm-7 col-xs-12 no-padding">
           <div class="header col-xs-12 no-padding">
@@ -28,11 +75,14 @@
       </div>
       <div class="experience col-xs-12 no-padding">
         <div class="logo col-md-5 col-sm-5 col-xs-12 no-padding">
-          <icon name="building" scale="5"></icon>
+          <!--icon name="building" scale="5"></icon-->
+          <a href="https://www.acer.com">
+            <img src="/static/logo/acer.png" width="60%">
+          </a>
         </div>
         <div class="detail col-md-7 col-sm-7 col-xs-12 no-padding">
           <div class="header col-xs-12 no-padding">
-            <h3 class="jobtitle" style="font-weight: bold;">Laboratory Technician</h3>
+            <h3 class="jobtitle" style="font-weight: bold;">Laboratory IT Technician</h3>
             <h4 class="company">Acer Europe SA</h4>
             <h5 class="date">
               <span class="from">4 May 2009</span>
