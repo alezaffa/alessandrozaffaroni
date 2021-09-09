@@ -42,7 +42,7 @@
       padding: 0px;
       .carousel {
         .listval {
-          word-wrap:break-word;
+          word-wrap: break-word;
         }
       }
     }

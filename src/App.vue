@@ -5,7 +5,9 @@
 
     <div class="body" ref="Home">
     <!--<router-view></router-view>-->
-
+        <div class="carousel col-xs-12" ref="Carousel">
+          <carousel></carousel>
+        </div>
         <div class="intro col-xs-12" ref="About Me">
           <who-am-i></who-am-i>
           <experiences></experiences>
@@ -16,9 +18,6 @@
         </div>
         <div class="cv col-xs-12" ref="Cv">
           <cv></cv>
-        </div>
-        <div class="carousel col-xs-12" ref="Carousel">
-          <carousel></carousel>
         </div>
         <div class="portfolio col-xs-12" ref="Portfolio">
           <portfolio></portfolio>
