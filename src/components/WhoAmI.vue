@@ -66,7 +66,11 @@
             font-weight: bold;
           }
           .description {
+<<<<<<< HEAD
             padding-top: 20px;
+=======
+            margin-top: 10px;
+>>>>>>> master
             text-align: justify;
           }
         }
