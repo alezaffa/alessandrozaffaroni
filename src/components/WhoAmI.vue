@@ -13,9 +13,9 @@
       <div class="introducing col-lg-6 col-md-6 col-xs-12">
         <span class="greetings">Benvenuto!</span>
         <p class="description">
-          Mi chiamo Alessandro Zaffaroni e vivo in provincia di Como. Laureato in Informatica e da sempre interessato all'Informatica e alle Telecomunicazioni.<br>
+          Mi chiamo Alessandro Zaffaroni, vivo in provincia di Como e sono da sempre interessato all'Informatica e alle Telecomunicazioni.<br>
           Ho maturato esperienza nel settore IT grazie ad importanti aziende.
-          Sin dai tempi universitari mi dedico alla creazione di <br>software sviluppati con il linguaggio Java e allo studio di nuovi linguaggi.
+          Sin dai tempi universitari mi dedico alla creazione di software sviluppati con il linguaggio Java e allo studio di nuovi linguaggi.
         </p>
       </div>
 
@@ -64,6 +64,7 @@
             font-weight: bold;
           }
           .description {
+            margin-top: 10px;
             text-align: justify;
           }
         }

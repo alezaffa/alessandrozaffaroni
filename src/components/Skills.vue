@@ -114,7 +114,6 @@
 
   #app {
     .container-fluid {
-      padding: 0px;
       padding-left: 10px;
       padding-right: 10px;
       .body {

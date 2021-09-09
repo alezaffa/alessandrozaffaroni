@@ -7,6 +7,47 @@
         <h1 class="title">Experiences</h1>
       </div>
 
+      <!-- start experience -->
+      <div class="experience col-xs-12 no-padding">
+        <div class="logo col-md-5 col-sm-5 col-xs-12 no-padding">
+          <icon name="building" scale="5"></icon>
+        </div>
+        <div class="detail col-md-7 col-sm-7 col-xs-12 no-padding">
+          <div class="header col-xs-12 no-padding">
+            <h3 class="jobtitle" style="font-weight: bold;">Software Engineer</h3>
+            <h4 class="company">Reply S.p.A</h4>
+            <h5 class="date">
+              <span class="from">04 November 2019</span>
+              <span> - </span>
+              <span class="to">present</span>
+            </h5>
+          </div>
+          <div class="description col-xs-12">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <!-- start experience -->
+      <div class="experience col-xs-12 no-padding">
+        <div class="logo col-md-5 col-sm-5 col-xs-12 no-padding">
+          <icon name="building" scale="5"></icon>
+        </div>
+        <div class="detail col-md-7 col-sm-7 col-xs-12 no-padding">
+          <div class="header col-xs-12 no-padding">
+            <h3 class="jobtitle" style="font-weight: bold;">Application Developer</h3>
+            <h4 class="company">Consoft Sistemi S.p.A.</h4>
+            <h5 class="date">
+              <span class="from">16 April 2018</span>
+              <span> - </span>
+              <span class="to">31 October 2019</span>
+            </h5>
+          </div>
+          <div class="description col-xs-12">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <!-- start experience -->
       <div class="experience col-xs-12 no-padding">
         <div class="logo col-md-5 col-sm-5 col-xs-12 no-padding">
           <icon name="building" scale="5"></icon>
@@ -26,6 +67,7 @@
           </div>
         </div>
       </div>
+      <!-- start experience -->
       <div class="experience col-xs-12 no-padding">
         <div class="logo col-md-5 col-sm-5 col-xs-12 no-padding">
           <icon name="building" scale="5"></icon>
