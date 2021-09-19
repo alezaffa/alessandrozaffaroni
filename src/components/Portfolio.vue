@@ -3,9 +3,7 @@
 
     <div class="body">
       <div class="content">
-       <h1>
-         PORTFOLIO
-       </h1>
+       <h1 class="title">Portfolio</h1>
       
       <div class="repo-title">
         <h4>Al click sui seguenti repository sono disponibili alcuni dei progetti, esempi e tutorial svolti negli anni</h4>
@@ -53,6 +51,13 @@
     margin-top: 0px;
     .body {
       .content {
+        .h1, .title {
+          color: orangered;
+          padding: 0px;
+          font-size: 5rem;
+          text-align: center;
+          font-weight: normal;
+        }
         padding: 40px;
         .repo-title, .repo {
           padding-top: 20px;
