@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <navbar @example="methodName"></navbar>
+    <navbar @example="scrollToSection"></navbar>
 
     <div class="body" ref="Home">
     <!--<router-view></router-view>-->
@@ -18,6 +18,9 @@
         </div>
         <div class="cv col-xs-12" ref="Cv">
           <cv></cv>
+        </div>
+        <div class="photos col-xs-12" ref="Portfolio">
+          <photos></photos>
         </div>
         <div class="portfolio col-xs-12" ref="Portfolio">
           <portfolio></portfolio>
@@ -43,6 +46,7 @@
   import Cv from './components/Cv'
   import Contacts from './components/Contacts'
   import VmBackTop from 'vue-multiple-back-top/src/components/back-top'
+  import Photos from './components/Photos.vue'
 
   export default {
     components: {
@@ -55,11 +59,12 @@
       Experiences,
       Education,
       Cv,
-      Contacts
+      Contacts,
+      Photos
     },
     name: 'app',
     methods: {
-      methodName (name) {
+      scrollToSection (name) {
         let element = this.$refs[name]
         let top = element.offsetTop
         window.scrollTo(0, top)
