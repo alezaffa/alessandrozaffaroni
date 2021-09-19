@@ -8,7 +8,8 @@ import Icon from 'vue-awesome/components/Icon'
 import VmBackTop from 'vue-multiple-back-top'
 import 'vue-awesome/icons'
 
-Vue.component(VmBackTop.name, VmBackTop, Icon)
+Vue.component('vmBackTop', VmBackTop)
+Vue.component('icon', Icon)
 Vue.use(FlagIcon)
 Vue.config.productionTip = false
 
